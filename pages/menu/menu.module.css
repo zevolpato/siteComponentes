@@ -1,0 +1,58 @@
+.p1 span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: black;
+    color: white;
+  }
+ 
+  
+  .p1 li {
+    display: inline;
+    padding: 10px 20px 10px 20px ;
+    border: 3px solid black;
+    border-radius: 9px;
+    border-color: gray;
+    background-color: rgba(255, 255, 200, 0.3);
+    font-family: roboto;
+    color: black;
+    
+  }
+  
+
+
+
+
+  .p1 i{
+    padding-right: 10px;
+  }
+
+
+
+  .p2 span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: black;
+    color: white;
+  }
+
+  .p2 li {
+    display: inline;
+    padding: 10px 20px 10px 20px ;
+    border: 3px solid black;
+    border-radius: 9px;
+    border-color: gray;
+    background-color: rgba(53, 1, 1, 0.3);
+    font-family: roboto;
+    color: rgb(247, 240, 240);
+    
+  }
+
+  .p2 i{
+    padding-right: 10px;
+  }
