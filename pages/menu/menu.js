@@ -1,4 +1,6 @@
 import styles from './menu.module.css'
+import Image from 'next/image'
+import logo from '../../public/logo.png'
 
 function Menu() {
     return (
@@ -8,7 +10,13 @@ function Menu() {
         <p >MENU1</p>
         <br />
         <header>
-            <span> LOGO 
+            <span> 
+            <Image
+              src={logo}
+              alt="Logo"
+              width={80} automatically provided
+              height={60} automatically provided
+            /> 
             <ul>
               <li>
                 <i></i>
@@ -24,12 +32,18 @@ function Menu() {
             </span>
           </header>
         </div>
-        <hr />
+        
         <div className={styles.p2}>
         <p >MENU2</p>
         <br />
         <header>
-            <span> LOGO 
+            <span> 
+            <Image
+              src={logo}
+              alt="Logo"
+              width={80} automatically provided
+              height={60} automatically provided
+            /> 
             <ul>
               <li>
                 <i></i>
@@ -45,11 +59,6 @@ function Menu() {
             </span>
           </header>
         </div>
-
-
-
-
-
         </div>
     
     )
